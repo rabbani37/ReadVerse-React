@@ -5,20 +5,20 @@ import { Link } from "react-router";
 
 const BookCard = ({ book }) => {
 
-    const { image, bookName, tags, author, category, rating } = book;
+    const { image, bookName, tags, author, category, rating,bookId } = book;
 
-    console.log(book)
+    // console.log(book)
 
     return (
-        <Link>
+        <Link to={`/bookDetails/${bookId}`}>
             <div className=" flex flex-col h-full card bg-base-200 shadow-sm">
                 <figure className="px-5 mt-5">
                     <img
                         src={image}
                         alt={bookName}
-                        className="rounded-xl w-full h-72  " />
+                        className="rounded w-3/4 h-72  " />
                 </figure>
-                <div className="  card-body">
+                <div className="card-body">
                     <div className="flex gap-10">
                         {
                             tags.map((tag, idx) => <p className="p-2 rounded-full text-center font-semibold text-green-500 bg-green-100" key={idx}>{tag}</p>)

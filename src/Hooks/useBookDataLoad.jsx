@@ -8,7 +8,7 @@ const useBookDataLoad = () => {
     const [loader, setLoader] = useState(true);
 
     useEffect(() => {
-        axios.get("bookData.json")
+        axios.get("/bookData.json")
             .then(data => {
                 setData(data.data)
                 setLoader(false)

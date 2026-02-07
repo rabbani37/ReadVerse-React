@@ -36,8 +36,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end space-x-1">
-                <a className="btn btn-outline">Sing In</a>
-                <a className="btn btn-success">Sing Up</a>
+                <a className="btn btn-success btn-outline">Sing In</a>
+                <a className="btn btn-info">Sing Up</a>
             </div>
         </div>
     );
