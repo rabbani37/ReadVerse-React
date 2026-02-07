@@ -4,15 +4,17 @@ import { NavLink } from "react-router";
 const Navbar = () => {
 
     const navList = <>
-        <NavLink to={`/`} className={({ isActive }) =>`${ isActive ? "text-green-500 border border-green-500" :""} text-gray-500 rounded py-1 px-3 mx-2 font-semibold `} > <li> Home</li></NavLink>
+        <NavLink to={`/`} className={({ isActive }) => `${isActive ? "text-green-500 border border-green-500" : ""} text-gray-500 rounded py-1 px-3 mx-2 font-semibold `} > <li> Home</li></NavLink>
 
         <NavLink
-            to={`/listedBooks`}className={({ isActive }) =>`${ isActive ? "text-green-500 border border-green-500" :""} text-gray-500 rounded py-1 px-3 mx-2 font-semibold `} > <li> Listed Books</li></NavLink>
+            to={`/listedBooks`} className={({ isActive }) => `${isActive ? "text-green-500 border border-green-500" : ""} text-gray-500 rounded py-1 px-3 mx-2 font-semibold `} > <li> Listed Books</li></NavLink>
+
+        <NavLink
+            to={`/pagesToRead`} className={({ isActive }) => `${isActive ? "text-green-500 border border-green-500" : ""} text-gray-500 rounded py-1 px-3 mx-2 font-semibold `} > <li>PagesToRead</li></NavLink>
 
 
     </>
 
-    //  'text-green-500 border':"rounded py-1 px-3 mx-2 text-gray-500 font-semibold"
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -33,8 +35,9 @@ const Navbar = () => {
                     {navList}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end space-x-1">
+                <a className="btn btn-outline">Sing In</a>
+                <a className="btn btn-success">Sing Up</a>
             </div>
         </div>
     );

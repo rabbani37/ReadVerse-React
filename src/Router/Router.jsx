@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import Root from "../component/Root/Root";
 import Home from "../Pages/Home/Home";
 import ListedBooks from "../Pages/ListedBooks/ListedBooks.jsx";
+import PagesToRead from "../Pages/PagesToRead/PagesToRead.jsx";
 
 
 
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path:"/listedBooks",
                 element:<ListedBooks></ListedBooks>
+            },
+            {
+                path:"/pagesToRead",
+                element:<PagesToRead></PagesToRead>
             }
         ]
     },

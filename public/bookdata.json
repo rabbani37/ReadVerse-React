@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "The Alchemist",
+    "author": "Paulo Coelho",
+    "image": "https://covers.openlibrary.org/b/id/8274151-L.jpg",
+    "review": "This book inspires readers to follow their dreams and listen to their hearts. It delivers a simple yet powerful message about destiny, faith, and self-discovery.",
+    "totalPages": 208,
+    "rating": 4.7,
+    "category": "Fiction",
+    "tags": ["Inspirational", "Philosophical"],
+    "publisher": "HarperOne",
+    "yearOfPublishing": 1988
+  },
+  {
+    "bookId": 2,
+    "bookName": "Atomic Habits",
+    "author": "James Clear",
+    "image": "https://covers.openlibrary.org/b/id/10594765-L.jpg",
+    "review": "A practical guide to building good habits and breaking bad ones. The book focuses on small changes that create remarkable long-term results.",
+    "totalPages": 320,
+    "rating": 4.8,
+    "category": "Self Help",
+    "tags": ["Productivity", "Motivation"],
+    "publisher": "Avery",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 3,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+    "review": "A dark and disturbing novel that explores surveillance, censorship, and loss of freedom. It forces readers to question power and control in society.",
+    "totalPages": 328,
+    "rating": 4.6,
+    "category": "Dystopian",
+    "tags": ["Political", "Psychological"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 4,
+    "bookName": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "image": "https://covers.openlibrary.org/b/id/8168691-L.jpg",
+    "review": "This book changes the way people think about money and financial education. It highlights the importance of assets, investments, and financial independence.",
+    "totalPages": 336,
+    "rating": 4.5,
+    "category": "Finance",
+    "tags": ["Money", "Entrepreneurship"],
+    "publisher": "Warner Books",
+    "yearOfPublishing": 1997
+  },
+  {
+    "bookId": 5,
+    "bookName": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "image": "https://covers.openlibrary.org/b/id/11153269-L.jpg",
+    "review": "An insightful book that explains how human behavior affects financial decisions. It focuses more on mindset than complex financial formulas.",
+    "totalPages": 256,
+    "rating": 4.7,
+    "category": "Finance",
+    "tags": ["Psychology", "Wealth"],
+    "publisher": "Harriman House",
+    "yearOfPublishing": 2020
+  },
+  {
+    "bookId": 6,
+    "bookName": "Harry Potter and the Sorcerer’s Stone",
+    "author": "J.K. Rowling",
+    "image": "https://covers.openlibrary.org/b/id/7984916-L.jpg",
+    "review": "A magical story that introduces readers to the wizarding world. It is full of adventure, friendship, and imagination for all ages.",
+    "totalPages": 309,
+    "rating": 4.9,
+    "category": "Fantasy",
+    "tags": ["Adventure", "Magic"],
+    "publisher": "Bloomsbury",
+    "yearOfPublishing": 1997
+  }
+]
