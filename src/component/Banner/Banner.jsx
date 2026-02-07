@@ -10,7 +10,7 @@ const Banner = () => {
                         <button className="btn btn-success text-white">View The List</button>
                     </div>
                     <div className="">
-                        <img className="w-3/4 rounded" src="https://covers.openlibrary.org/b/id/8274151-L.jpg" alt="" />
+                        <img className="w-full h-96 rounded" src="https://covers.openlibrary.org/b/id/7984916-L.jpg" alt="" />
                     </div>
                 </div>
             </div>
